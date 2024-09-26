@@ -1,2 +1,111 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fcfcf7;
+            color: #333;
+        }
+
+        header {
+            background-color: #4e0202;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2.section-title {
+            margin-top: 2rem;
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        p {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        .portfolio-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 1rem auto;
+            padding: 1rem;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-item h3 {
+            color: #333;
+        }
+
+        .portfolio-item p {
+            color: #666;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>NITISH KUMAR </h1>
+        <p>Web Developer | Designer | Programmer</p>
+    </header>
+
+    <h2 class="section-title">About Me</h2>
+    <p> Hi, I'm a beginner web developer passionate about creating clean, responsive websites. I enjoy learning new
+        technologies and building user-friendly designs. Check out my projects as I continue to grow and improve my
+        skills."</p>
+
+
+    <h2 class="section-title">My Portfolio</h2>
+
+    <div class="portfolio-item">
+        <h3>Project 1</h3>
+        <p>"Welcome to my portfolio, Here you'll find a collection of my work showcasing my skills and creativity. Each
+            project highlights my passion for [Web devloper] and my dedication to delivering quality results. Explore
+            and get a glimpse of what I can do."</p>
+        <a> href="http://127.0.0.1:5500/My%20Portfolio%20page.html" </a>
+    </div>
+
+
+
+    <SEction>
+        <h2 class="section-title">Contact Me</h2>
+        <P>If you'd like to get in touch, please <a href="nitishbhk8@gmail.com">send me an email</a>.</p>
+        <p>Phone: (6204387500)</p>
+        <p>LinkedIn: <a
+                href="https://www.linkedin.com/in/%F0%9D%97%A1%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B6%F0%9D%98%80%F0%9D%97%B5-%F0%9D%97%9E%F0%9D%98%82%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BF-ab306127b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">MY LinkedIn</a></p>
+    </SEction>
+</body>
+
+</html>
